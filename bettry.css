@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: firebrick;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+
+}
+
+.bettry{
+    border: 15px solid yellow;
+    height: 150px;
+    width: 350px;
+    position: relative;
+
+}
+
+
+.bettryhuk {
+    position: absolute;
+    height: 30px;
+    width: 35px;
+    border: 10px solid yellow;
+    background-color: rgb(255, 255, 0);
+    top: 35%;
+    left: 101%;
+}
+
+.power {
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+    
+    margin: 10px;
+    
+    animation: powerup 5s 10;
+
+}
+
+
+@keyframes powerup {
+
+0%{
+    
+    width: 0;
+    background-color: rgb(242, 32, 32);
+}    
+
+50%{
+   
+    width: 100px;
+    background-color: rgb(255, 217, 0);
+}
+80%{
+    
+    width: 200px;
+    background-color: rgb(59, 106, 62);
+}
+100%{
+    
+    width: 300px;
+    background-color: rgb(44, 255, 44);
+}
+
+
+
+}
